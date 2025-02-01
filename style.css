@@ -1,0 +1,68 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light background */
+    color: #333; /* Dark text color */
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.language-switcher {
+    display: flex;
+}
+
+.language-switcher button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #eee;
+    color: #333;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 5px; /* Space between buttons */
+}
+
+.language-switcher button.active {
+    background-color: #ddd; /* Slightly darker for active button */
+}
+
+main {
+    text-align: center; /* Center the contact info */
+}
+
+.contact-info {
+    display: none; /* Initially hide all contact info */
+}
+
+.contact-info.active {
+    display: block; /* Show the active contact info */
+}
+
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
